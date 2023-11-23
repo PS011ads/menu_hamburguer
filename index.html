@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Restaurante</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header></header>
+    <section>
+
+        <h1>Cardapio</h1>
+
+        <h3>Escolha suas opções</h3>
+
+        <br>
+
+        <p id="hamburgers">Hamburgers</p>
+
+        <p id="h1">Opção 1 - Xburger = R$1.36</p>
+
+        <p id="h2">Opção 2 - Xsalada = R$2.31</p>
+
+        <p id="h3">Opção 3 - Xbacon = R$2.81</p>
+
+        <br>
+
+        <p id="acompanhamento">Acompanhamento</p>
+
+        <p>Opção 1 - Nuggets = R$3.69</p>
+
+        <p>Opção 2 - Fritas = R$1.58</p>
+
+        <br>
+
+        <p id="Bebidas">Bebidas</p>
+
+        <p>Opção 1 - Coca-cola = R$1.48</p>
+
+        <p>Opção 2 - Fanta = R$2.58</p>
+
+        <p>Opção 3 - Água = R$0.98</p>
+
+        <label for="h">Numero de opção de Hamburger</label><input id="h" type="text" maxlength="1">
+        <br>
+        <label for="a">Numero de opção de Acompanhamento</label><input id="a" type="text" maxlength="1">
+        <br>
+        <label for="b">Numero de opção de bebida</label><input id="b" type="text" maxlength="1">
+        
+    </section>
+    <div id="espaco">
+        <p id="botao" onclick="clicar()">proximo</p>
+    </div>
+    <div id="espacoresult">
+        <h1>Seu Pedido</h1>
+        <br>
+        <p id="result"></p>
+        <br>
+        <p id="result2"></p>
+        <br>
+        <p id="result3"></p>
+        <br>
+        <p id="total"></p>
+    </div>
+
+</body>
+
+</html>
